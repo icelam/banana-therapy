@@ -1,0 +1,36 @@
+.caption {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 100%;
+  padding: 0 5%;
+  box-sizing: border-box;
+  font-size: calc(1.5rem + 1vw);
+  line-height: normal;
+  text-align: center;
+  text-shadow: -0.0625rem -0.0625rem 0 $color-background,
+    0.0625rem -0.0625rem 0 $color-background,
+    -0.0625rem 0.0625rem 0 $color-background,
+    0.0625rem 0.0625rem 0 $color-background;
+}
+
+.replay-button {
+  transition: opacity 0.5s;
+  line-height: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: $color-link;
+
+  img, span {
+    vertical-align: middle;
+  }
+
+  img {
+    width: 0.75rem;
+  }
+
+  &:hover, &:active {
+    color: $color-link-hover;
+  }
+}

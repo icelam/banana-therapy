@@ -1,0 +1,12 @@
+.github-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 3rem;
+  opacity: 0.2;
+  transition: opacity 0.5s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

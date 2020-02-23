@@ -1,0 +1,79 @@
+{
+  "name": "banana-therapy",
+  "version": "1.0.0",
+  "description": "It's okay to be different.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack/webpack.prod.conf.js  --colors",
+    "dev": "webpack-dev-server --open --config webpack/webpack.dev.conf.js",
+    "lint": "./node_modules/.bin/eslint 'src/**/*.js'; exit 0;",
+    "lint:entry": "./node_modules/.bin/eslint --no-ignore",
+    "first-release": "standard-version --commit-all --tag-prefix v --first-release --infile CHANGELOG.md",
+    "release": "standard-version --commit-all --tag-prefix v --infile CHANGELOG.md"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "replace 'bitbucket.org' 'github.com' CHANGELOG.md"
+    }
+  },
+  "author": "Ice Lam",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-plugin-transform-remove-debugger": "^6.9.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.0",
+    "cssnano": "^4.1.10",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.19.1",
+    "file-loader": "^4.3.0",
+    "html-loader": "^0.5.5",
+    "html-variables-plugin": "^1.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "husky": "^3.1.0",
+    "mini-css-extract-plugin": "^0.8.2",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.4",
+    "pug-html-loader": "^1.1.5",
+    "replace": "^1.1.5",
+    "sass-loader": "^7.3.1",
+    "standard-version": "^7.0.1",
+    "style-loader": "^1.1.2",
+    "url-loader": "^2.3.0",
+    "webpack": "^4.41.5",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.1.4",
+    "workbox-webpack-plugin": "^4.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.1",
+    "matter-js": "^0.14.2",
+    "pathseg": "^1.2.0",
+    "poly-decomp": "^0.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "last 2 versions",
+    "not dead",
+    "ie 9",
+    "ie 10",
+    "ie 11",
+    "firefox 15",
+    "opera 12"
+  ]
+}
