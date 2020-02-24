@@ -4,6 +4,7 @@ $color-black: #000000;
 
 $color-yellow: #ffe239;
 $color-dark-yellow: #feba0d;
+$color-orange-yellow: #ffb83b;
 
 $color-pink: #f787d2;
 $color-dark-pink: #db6bb6;
@@ -18,3 +19,9 @@ $color-background: $color-dark-yellow;
 $color-text: $color-grey;
 $color-link: $color-brown;
 $color-link-hover: $color-dark-brown;
+
+$color-modal-background: rgba($color-black, 0.5);
+$color-modal-content-background: $color-white;
+$color-modal-button-text: $color-white;
+$color-modal-button-background: $color-dark-yellow;
+$color-modal-button-background-hover: $color-orange-yellow;

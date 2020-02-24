@@ -1,0 +1,46 @@
+.modal {
+  display: none;
+  background-color: $color-modal-background;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    background-color: $color-modal-content-background;
+    border-radius: 0.25rem;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    margin: 0 0 0.75rem 0;
+  }
+
+  &__button {
+    display: inline-block;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: none;
+    background-color: $color-modal-button-background;
+    color: $color-modal-button-text;
+    padding: 0.625rem 2rem;
+    margin: 1.5rem 0 0 0;
+    font-size: 1rem;
+    font-family: inherit;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+
+    &:hover, &:active {
+      background-color: $color-modal-button-background-hover;
+    }
+  }
+}
