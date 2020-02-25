@@ -71,7 +71,7 @@ const fallBananas = (totalBananas = 50, dropInterval = 200) => {
 
     /* Create canvas */
     render = Render.create({
-      element: document.body,
+      element: document.getElementById('app'),
       engine: engine,
       options: {
         wireframes: false,
