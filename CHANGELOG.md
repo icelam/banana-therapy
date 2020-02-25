@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/icelam/banana-therapy/compare/v1.1.0...v1.1.1) (2020-02-25)
+
+
+### Bug Fixes
+
+* move canvas to #app div ([bd0b2f3](https://github.com/icelam/banana-therapy/commit/bd0b2f30eec90d498cfa11137ea982b60fdebd4e))
+
 ## [1.1.0](https://github.com/icelam/banana-therapy/compare/v1.0.0...v1.1.0) (2020-02-24)
 
 
