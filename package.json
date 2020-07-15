@@ -12,11 +12,6 @@
     "first-release": "standard-version --commit-all --tag-prefix v --first-release --infile CHANGELOG.md",
     "release": "standard-version --commit-all --tag-prefix v --infile CHANGELOG.md"
   },
-  "standard-version": {
-    "scripts": {
-      "postchangelog": "replace 'bitbucket.org' 'github.com' CHANGELOG.md"
-    }
-  },
   "author": "Ice Lam",
   "license": "ISC",
   "devDependencies": {
@@ -48,7 +43,6 @@
     "postcss-loader": "^3.0.0",
     "pug": "^2.0.4",
     "pug-html-loader": "^1.1.5",
-    "replace": "^1.1.5",
     "sass-loader": "^7.3.1",
     "standard-version": "^7.0.1",
     "style-loader": "^1.1.2",
