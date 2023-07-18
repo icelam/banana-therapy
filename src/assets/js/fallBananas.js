@@ -88,7 +88,7 @@ const fallBananas = (totalBananas = 50, dropInterval = 200) => {
       Bodies.rectangle(canvasWidth + 50, 0, 100, canvasHeight * 2, {
         isStatic: true,
         render: {
-          fillStyle: 'red'
+          fillStyle: 'transparent'
         }
       }),
       // bottom boundries
