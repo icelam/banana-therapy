@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/icelam/banana-therapy/compare/v1.1.2...v1.1.3) (2023-07-18)
+
+
+### Bug Fixes
+
+* fix typo in SEO keywords ([b235141](https://github.com/icelam/banana-therapy/commit/b2351417fe569e03b05755428c11fe96910f8ca2))
+* right boundary should be transparent ([5d51b32](https://github.com/icelam/banana-therapy/commit/5d51b32d7b4c9433dbf7cddeaa8383ce12594df5))
+
 ### [1.1.2](https://github.com/icelam/banana-therapy/compare/v1.1.1...v1.1.2) (2020-08-16)
 
 
